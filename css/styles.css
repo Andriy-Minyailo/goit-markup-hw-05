@@ -522,7 +522,9 @@ li > .footer-contact {
   color: var(--primary-backgroun-color);
   background-color: rgba(33, 150, 243, 0.9);
 }
-.link-portfolio:hover .portdolio-text-hover {
+.link-portfolio:hover .portdolio-text-hover,
+.link-portfolio:focus .portdolio-text-hover
+ {
   transform: translateY(0);
 }
 /* ----------------------------модальне вікно */
