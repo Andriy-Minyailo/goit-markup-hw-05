@@ -551,7 +551,7 @@ li > .footer-contact {
   transform-origin: top left;
 }
 .backdrop.is-hidden .modal {
-  transform: translate(-50%, -50%) scale(1.25) skew(30deg, 30deg);
+  transform: scale(1.25) skew(30deg, 30deg);
   box-shadow: none;
 }
 .modal-close {
